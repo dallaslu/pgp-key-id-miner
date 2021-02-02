@@ -23,13 +23,13 @@ wget https://github.com/dallaslu/pgp-key-id-miner/releases/download/0.0.1/pgp-ke
 ```bash
 java -jar target/pgp-key-id-miner-0.0.1-jar-with-dependencies.jar
 ```
->Tue Feb 02 15:28:20 CST 2021 #0
->Tue Feb 02 15:28:27 CST 2021 Got 46497FF457E16BE2A89C70193B2C65CC77000000 (Mon Feb 01 15:23:27 CST 2021), used 6s. #4237017
+>Tue Feb 02 15:28:20 CST 2021 #0  
+>Tue Feb 02 15:28:27 CST 2021 Got 46497FF457E16BE2A89C70193B2C65CC77000000 (Mon Feb 01 15:23:27 CST 2021), used 6s. #4237017  
 >Tue Feb 02 15:28:27 CST 2021 Dumped with passphrase: UAwspD1EJKGOvnnboTmv
 
 ### Customization
-`timeStartString`: `yyyy-MM-dd HH:mm:ss`; Optional, Reqired if `timeEndString` is specified
-`timeEndString`: `yyyy-MM-dd HH:mm:ss`; Optional
+`timeStartString`: `yyyy-MM-dd HH:mm:ss`; Optional, Reqired if `timeEndString` is specified  
+`timeEndString`: `yyyy-MM-dd HH:mm:ss`; Optional  
 `patterns`: Consists of 0123456789ABCDEF, `_` for arbitrary; Multiple, Optional
 
 ### Examples
