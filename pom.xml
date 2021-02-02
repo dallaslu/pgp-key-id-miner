@@ -30,7 +30,7 @@
 					</archive>
 					<descriptorRefs>
 						<descriptorRef>
-							with-dependencies
+							jar-with-dependencies
 						</descriptorRef>
 					</descriptorRefs>
 				</configuration>
