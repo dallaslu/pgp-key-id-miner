@@ -30,9 +30,11 @@ java -jar pgp-key-id-miner-0.0.1-jar-with-dependencies.jar
 >Tue Feb 02 15:28:27 CST 2021 Dumped with passphrase: UAwspD1EJKGOvnnboTmv
 
 ### Customization
-`timeStartString`: `yyyy-MM-dd HH:mm:ss`; Optional, Reqired if `timeEndString` is specified  
-`timeEndString`: `yyyy-MM-dd HH:mm:ss`; Optional  
-`patterns`: Consists of 0123456789ABCDEF, `_` for arbitrary; Multiple, Optional
+| Param             | Format                                |             |
+|-------------------|---------------------------------------|-------------|
+| `timeStartString` | `yyyy-MM-dd HH:mm:ss`                 | Optional, Reqired if `timeEndString` is specified |
+| `timeEndString`   | `yyyy-MM-dd HH:mm:ss`                 | Optional    |
+| `patterns`        | Consists of 0-9A-F, `_` for arbitrary | Optional, Multiple  |
 
 ### Examples
 ```bash
