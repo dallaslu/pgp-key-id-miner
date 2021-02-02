@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.dallaslu</groupId>
 	<artifactId>pgp-key-id-miner</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -30,7 +30,7 @@
 					</archive>
 					<descriptorRefs>
 						<descriptorRef>
-							jar-with-dependencies
+							with-dependencies
 						</descriptorRef>
 					</descriptorRefs>
 				</configuration>
