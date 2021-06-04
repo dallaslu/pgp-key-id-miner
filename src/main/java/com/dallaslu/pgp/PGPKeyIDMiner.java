@@ -123,7 +123,7 @@ public class PGPKeyIDMiner {
 		final Date end = timeEndString == null ? new Date() : sdf.parse(timeStartString);
 		final String[] patterns = patternsList.toArray(new String[0]);
 
-		int threadNum = Runtime.getRuntime().availableProcessors() * 2;
+		int threadNum = Runtime.getRuntime().availableProcessors();
 		ExecutorService es = Executors.newFixedThreadPool(threadNum);
 
 		for (int i = 0; i < threadNum; i++) {
